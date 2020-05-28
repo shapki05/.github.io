@@ -325,4 +325,24 @@ border: 2px solid black;
   top : -496px;
   height : 433.469px;
 }
+#nomer2>img {
+  top : 5px;
+}
+
+#nomer1>img {
+  width : 267px;
+  top : 3px;
+}
+
+#nomer2>img {
+  width : 262px;
+}
+
+#nomer1>img {
+  left : 21px;
+}
+
+#nomer2>img {
+  left : 26px;
+}
 
