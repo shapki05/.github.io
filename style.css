@@ -61,21 +61,9 @@ li {
    li:hover > ul > li {
         float:none; /*Убираем горизонтальное позиционирование*/
     }
-    .logo{
-    	height: 100px
-   
-   
-}
-.logo{
-	  margin: 0px 1000px 0px 0px;
-	 background-color: #8f4c25;
-	 
-	 border: 5px solid black;
-      font-size: 200px
-}
-.logo{
-	width: 40%;
-}
+  
+
+
 .verhnyayachast{
 color: white;
 background-color: black;
@@ -91,7 +79,6 @@ border: 1px solid black
 }/**/
 
 
-
-  #nomer1{
-  	border: 1px solid black;
+ #nomer1{
+  	border: 3px solid black;
   }
