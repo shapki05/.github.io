@@ -299,20 +299,30 @@ p.text2 {
 shapka2{
 border: 2px solid black;
 }
+
+
+
 #nomer2 {
-  left : 285px;
+  left : 283px;
+}
+
+#nomer2>h3class\"skidka\">p {
+  top : -6px;
+  left : -72px;
+}
+
+#nomer1>img {
+  top : 2px;
+  left : 11px;
 }
 
 #nomer2>img {
   top : 2px;
-  left : 14px;
+  left : 11px;
 }
 
 #nomer2 {
-  top : -492px;
-}
-
-#nomer2>h3class\"skidka\">a {
-  top : -5px;
+  top : -496px;
+  height : 433.469px;
 }
 
