@@ -185,7 +185,9 @@ p.text1 {
 #nomer1 {
   height : 434.469px;
 }
-
+.shapka1{
+border: 2px solid black;
+}
 
 /*2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222/*/
 #nomer2{
@@ -293,4 +295,7 @@ p.text2 {
 }
 #nomer2 {
   height : 434.469px;
+}
+shapka2{
+border: 2px solid black;
 }
