@@ -1,0 +1,99 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+.knopka{
+    margin: 0px 1515px 0px 0px;
+	background-color: #8f4c25;
+	color: white;
+	border: 5px solid gray;
+    font-size: 20px
+   
+}
+
+
+
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 100; /*убираем отступы*/
+  margin-top:-10px; /*делаем отступ сверху*/
+  background:#381814; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#381814; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding: 0px 65px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #381814; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+a:hover {
+  background:#852114;/*добавляем эффект при наведении*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display:block; 
+        width:220px;  /*Задаем ширину выпадающего меню*/      
+    }
+   li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    }
+    .logo{
+    	height: 100px
+   
+   
+}
+.logo{
+	  margin: 0px 1000px 0px 0px;
+	 background-color: #8f4c25;
+	 
+	 border: 5px solid black;
+      font-size: 200px
+}
+.logo{
+	width: 40%;
+}
+.verhnyayachast{
+color: white;
+background-color: black;
+border: 1px solid black
+
+}
+/*/*.#basic {
+    width: 960px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+}/**/
+
+.shapka1{ position : relative ; top: -5px;
+           left: 10px;
+           top: 20%;
+    left: 1%;
+    bottom: 50%;
+    max-height: 10%;
+    max-width: 20%;}
