@@ -82,34 +82,37 @@ border: 1px solid black
  #nomer1{
   	border: 3px solid black;
   }
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Шапки от Хабиба</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+#nomer1 {
+  width : 325px;
+}
 
-	<h1 class="verhnyayachast">
-	Шапки от Хабиба</h1>
+img.shapka1 {
+  position : relative;
+  top : 12px;
+}
 
-<ul>
-    <li><a href="#">Главная</a></li>
-    <li><a href="#">Услуги</a>
-        <ul>
-            <li><a href="#">Услуга 1</a></li>
-            <li><a href="#">Длинная услуга 2</a></li>
-            <li><a href="#">Услуга 3</a></li>
-        </ul>
-    </li>  
-    <li><a href="#">Цены</a></li>
-    <li><a href="#">Контакты</a></li>
-</ul>
+#nomer1 {
+  position : relative;
+  top : 32px;
+}
 
-<div id="nomer1">
-<img class="shapka1" src="shapka1.png">
+p.text1 {
+  width : 321px;
+  position : relative;
+  left : 4px;
+}
 
-<p class="text1">шапка номер 1 черного цвета<br>
-   производитель: Дагестан</p>
-</div>
-<body>
-</html>
+#nomer1 {
+  height : 399.469px;
+}
+
+p.text1 {
+  top : 36px;
+  height : 42px;
+}
+
+img.shapka1 {
+  width : 294px;
+  height : 284.469px;
+}
+
