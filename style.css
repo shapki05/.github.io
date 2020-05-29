@@ -217,3 +217,53 @@ p.text2 {
 a:hover{
 transform: scale(0.9);
 }
+#nomer2 {
+  left : 282px;
+  top : -496px;
+}
+
+#nomer2>h3class\"skidka\" {
+  position : relative;
+  top : -130px;
+  left : 85px;
+}
+
+#nomer2>h2 {
+  position : relative;
+  width : 105px;
+}
+
+#nomer2>h3class\"skidka\">p {
+  top : -4px;
+  left : -78px;
+}
+
+#nomer2 {
+  height : 433.219px;
+}
+
+#nomer1>h3class\"skidka\">p {
+  top : 19px;
+  left : -70px;
+}
+
+#nomer2>h3class\"skidka\">a {
+  position : relative;
+  top : -5px;
+  left : -86px;
+}
+
+#nomer2>h2 {
+  top : -53px;
+  left : 210px;
+}
+
+#nomer1>img {
+  width : 281px;
+  left : 19px;
+}
+
+#nomer2>img {
+  left : 26px;
+  width : 264px;
+}
